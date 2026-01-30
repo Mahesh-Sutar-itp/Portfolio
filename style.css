@@ -79,3 +79,17 @@ img {
   gap: var(--space-sm);
   margin-bottom: var(--space-lg);
 }
+
+/* Tablet and above */
+@media (min-width: 768px) {
+
+  body {
+    padding: var(--space-lg);
+  }
+
+  .site-nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--space-md);
+  }
+}
