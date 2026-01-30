@@ -29,3 +29,18 @@ body {
   background-color: var(--color-bg);
   padding: var(--space-md);
 }
+
+/* Typography */
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-bottom: var(--space-sm);
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: var(--space-lg);
+}
