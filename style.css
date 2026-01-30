@@ -1,55 +1,8 @@
-/* Base reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-/* Typography */
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6;
-    padding: 1rem;
-} 
-
-/* Header */
-#site-header {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-#site-header img {
-    width: 150px;
-    border-radius: 50%;
-}
-
-/* Navigation */
-.site-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    list-style: none;
-    margin-bottom: 2rem;
-}
-
-.site-nav a {
-    text-decoration: none;
-    font-weight: 600;
-}
-
-/* Sections */
-.section {
-    margin-bottom: 2.5rem;
-}
-
-/* Projects */
-.project {
-    margin-bottom: 1.5rem;
-}
-
-/* Footer */
-#site-footer {
-    border-top: 1px solid #ccc;
-    padding-top: 1rem;
-    font-size: 0.9rem;
+/* Reset browser defaults */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
