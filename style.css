@@ -81,11 +81,12 @@ img {
 }
 
 /* Projects layout (mobile-first) */
-#project {
+.project-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-md);
 }
+
 
 .project {
   padding: var(--space-md);
@@ -108,7 +109,9 @@ img {
   }
 
   /* Projects grid on larger screens */
-  #project {
+  .project-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
+  
+}
+
 }
