@@ -80,6 +80,20 @@ img {
   margin-bottom: var(--space-lg);
 }
 
+/* Projects layout (mobile-first) */
+#project {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
+.project {
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+
 /* Tablet and above */
 @media (min-width: 768px) {
 
@@ -91,5 +105,10 @@ img {
     flex-direction: row;
     justify-content: center;
     gap: var(--space-md);
+  }
+
+  /* Projects grid on larger screens */
+  #project {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
